@@ -38,7 +38,7 @@ public abstract class Plane extends AircraftControl {
 
 	public void takePlane() {
 		double flightLength = 0 + (double) (Math.random() * 1000);
-		System.out.println("Взлітаю дальність польту літакана повному баці " + flightLength + " км.");
+		System.out.println("Взлітаю дальність польту літака на повному баці " + flightLength + " км.");
 	}
 
 	public void landingPlane() {
